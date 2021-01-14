@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(MyTutorialApp());
@@ -13,18 +14,15 @@ class MyTutorialApp extends StatelessWidget {
         home: Scaffold(
           appBar: AppBar(
             title: Text("Flutter"),
-            centerTitle: true,
             backgroundColor: Colors.pink[100],
           ),
           body: Center(
               child: Text(
             "Hello world!",
-            style: TextStyle(
-              fontFamily: "XanhMono",
+            style: GoogleFonts.poppins(
               fontSize: 30,
               fontWeight: FontWeight.bold,
-              fontStyle: FontStyle.italic,
-              color: Colors.lightGreenAccent[700],
+              color: Colors.grey[900],
             ),
           )),
           floatingActionButton: FloatingActionButton(
