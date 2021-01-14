@@ -65,8 +65,8 @@ flutter:
   fonts:
     - family: XanhMono
       fonts:
-        - asset: assets\fonts\XanhMono-Italic.ttf
-        - asset: assets\fonts\XanhMono-Regular.ttf
+        - asset: assets/fonts/XanhMono-Italic.ttf
+        - asset: assets/fonts/XanhMono-Regular.ttf
 
   #
   # For details regarding fonts from package dependencies,
